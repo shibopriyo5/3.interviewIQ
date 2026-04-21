@@ -131,7 +131,7 @@ useEffect(() => {
   const runIntro = async () => {
     if (isIntroPhase) {
       await speakText(
-        `Hi ${userName}, it's great to meet you today. I hope you're feel
+        `Hi ${userName}, it's great to meet you today. I hope you're feeling
         confident and ready.`
       );
 
@@ -145,7 +145,7 @@ useEffect(() => {
 
   // If last question (hard level)
   if (currentIndex === questions.length - 1) {
-    await speakText("Alright, this one might be a bit more challenging.");
+    await speakText("This one might be a bit more challenging.");
   }
 
   await speakText(currentQuestion.question);
