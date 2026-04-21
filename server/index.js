@@ -13,7 +13,7 @@ import interviewRouter from "./routes/interview.route.js";
 //      return res.json({message:"server started"})
 // })
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://three-interviewiq-client-2dr2.onrender.com",
     credentials:true
 }))
 app.use(express.json())
