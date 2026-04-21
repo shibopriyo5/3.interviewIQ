@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
-export const serverUrl="http://localhost:8000";
+export const serverUrl="https://three-interviewiq-osao.onrender.com";
 import axios from "axios";
 import {useDispatch} from 'react-redux'
 import { setUserData } from './redux/userSlice';
