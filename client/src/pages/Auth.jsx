@@ -39,7 +39,7 @@ function Auth({isModel=false}) {
         <div className='flex items-center justify-center gap-3 mb-6'> <div className='bg-black text-white p-2 rounded-lg'>
                 <BsRobot size={18}/>
             </div>
-                <h2 className='font-semibold text-lg'>InterviewIQ.AI</h2>
+                <h2 className='font-semibold text-lg'>Smart Interview Coach</h2>
             </div>
             <h1 className='text-2xl md:text-3xl font-semibold text-center leading-snug mb-4'> 
                 Continue With 
@@ -50,7 +50,7 @@ function Auth({isModel=false}) {
 
             </h1>
             < p className='text-gray-500 text-center text-sm md:text-base leading-relaxed mb-8'>
-                Sign in to start AI-powered mock interviews,track your progress and unlock detailed performance insights.
+                Sign in to kickstart AI-powered mock interviews, monitor your growth, and gain powerful performance insights.
             </p>
             <motion.button onClick={handleGoogleAuth} whileHover={{opacity:0.9,scale:1.03}} whileTap={{opacity:1,scale:0.98}} className='w-full flex items-center justify-center gap-3 py-3 bg-black text-white rounded-full shadow-md'><FcGoogle size={20}/>
                   continue with Google </motion.button>
